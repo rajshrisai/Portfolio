@@ -1,0 +1,14 @@
+body {
+    width: 22vw;
+    background-image: url(icecream.jpg);
+  }
+  button {
+    background-color: red;
+  }
+      input {
+    background-color: yellow;
+    width: 10vw;
+  }
+  form {
+    background-color: green;
+  }

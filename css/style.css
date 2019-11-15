@@ -1,0 +1,48 @@
+ body{
+     background-image: url("");
+ }
+
+.bg-black{
+    background-color: black;
+}
+.mypicture{
+    height: 100%;
+    width: 100%;
+    margin-top: 0%;
+}
+.font-div
+{
+width: 15vw;
+}
+.bg-grey{
+    background-color:  rgb(245, 65, 65);
+    
+}
+.btn{
+    color: white;
+}
+
+.list-header {
+    list-style: none;
+}
+
+@media only screen and (min-width:1198px){
+    .font-div{
+        padding:40px 0px!important;
+    }
+}
+@media only screen and (max-width: 768px){
+    .font-div{
+        width: 25vw;
+    }
+
+}
+img{
+    width: 100%;
+    margin-top:1vh;
+   
+    
+}
+.input-group-addon{
+    height:
+}

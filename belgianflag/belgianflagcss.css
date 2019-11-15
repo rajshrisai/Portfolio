@@ -1,0 +1,90 @@
+body{
+    margin:0 auto;
+}
+
+.parent {
+    display: grid;
+    position: absolute;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40vw 20vw;
+
+}
+.black{
+    background-color: black;
+    padding: 15vw;
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+}
+.yellow{
+    background-color: yellow;
+    padding: 15vw;
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+}
+.red{
+    background-color: red;
+    padding: 15vw;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.frenchfries{
+    height: 40vw;
+    width: 40vw;
+    background-image: url("frenchfries.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    z-index: 10;
+    left: 25vw;
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .frenchfries {
+        background-image: none;
+    }
+        
+
+.black{
+    background-color: black;
+    padding: 15vw;
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+}
+.yellow{
+    background-color: yellow;
+    padding: 15vw;
+    grid-column: 2/3;
+
+}
+.red{
+    background-color: red;
+    padding: 15vw;
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+.pis{
+    width: 170px;
+    height: 230px;
+    background-image: url("mannekenpis.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: center;
+    z-index: 11;
+    left:18vw;
+    top: 10vh;
+
+}
+
+  
+
+}
